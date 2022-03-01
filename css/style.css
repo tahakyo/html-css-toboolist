@@ -64,3 +64,24 @@ header{
     width: 90%;
     margin: auto;
 }
+
+#task-button{
+    padding: 0.35em;
+    border-radius: 10%;
+    background-color: #47adf1;
+    border-color: transparent;
+    color: white;
+    font-size: .75em;
+}
+#section-button{
+    opacity: 50%;
+    padding: 0.35em;
+    border-radius: 10%;
+    background-color: white;
+    border-color: grey;
+    color: grey;
+    font-size: .75em;
+    border-color: grey;
+    border-style: solid;
+}
+}
