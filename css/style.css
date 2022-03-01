@@ -23,6 +23,7 @@ header{
 .container{
     width: 90%;
     margin: 0 auto;
+    padding: 8px;
 }
 /* logo header */
 
@@ -50,6 +51,16 @@ header{
     border: solid;
     background-color: white;
     height: 8em;
-
-
 } 
+/* nav */
+.nav-container{
+    border-bottom: solid;
+    padding: 8px;
+    border-color: #f6f8f9;
+
+
+}
+.nav-content{
+    width: 90%;
+    margin: auto;
+}
