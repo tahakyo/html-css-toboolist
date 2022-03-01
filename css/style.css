@@ -4,15 +4,29 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto', sans-serif;
+/* COMMON */
+
+.mb-2 {
+    margin-bottom: 2em;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9;
+}
+/* HEADER */
+
+/* header container */
+header{
+    background-color: white;
+}
 .container{
     width: 90%;
     margin: 0 auto;
     border: solid;
 }
+/* logo header */
+
 .logo{
     vertical-align: middle;
 }
@@ -28,3 +42,10 @@ body{
     font-weight: bold;
     vertical-align: middle;
 }
+
+/* MAIN */
+
+/* .main-container{
+
+
+} */
