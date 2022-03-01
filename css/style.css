@@ -23,7 +23,6 @@ header{
 .container{
     width: 90%;
     margin: 0 auto;
-    border: solid;
 }
 /* logo header */
 
@@ -45,7 +44,12 @@ header{
 
 /* MAIN */
 
-/* .main-container{
+.main-container{
+    width: 65%;
+    margin: 2em auto;
+    border: solid;
+    background-color: white;
+    height: 8em;
 
 
-} */
+} 
