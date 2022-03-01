@@ -50,7 +50,7 @@ header{
 
     /* MAIN */
 
-.main-container{
+main{
     width: 65%;
     margin: 2em auto;
     border: solid;
@@ -92,6 +92,9 @@ header{
 
 /* Section */
 
+/* ol{
+    list-style: none;
+} */
 ul{
     list-style: none;
 }
@@ -99,4 +102,17 @@ ul{
 .section-1{
     width: 90%;
     margin: 2em auto;
+}
+#check-mark{
+    display: inline-block;
+    border-radius: 50%;
+    display: inline-block;
+    color: green;
+    border-style: solid;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
 }
