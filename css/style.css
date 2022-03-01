@@ -6,7 +6,7 @@
 }
     /* COMMON */
 
-.mb-2 {
+.mb-2{
     margin-bottom: 2em;
 }
 
@@ -105,14 +105,30 @@ ul{
 }
 #check-mark{
     display: inline-block;
+    width: 18px;
+    height: 18px;
+    padding: 0px;
+    font-size: 85%;
+    line-height: 18px;
     border-radius: 50%;
-    display: inline-block;
-    color: green;
-    border-style: solid;
-    padding: 2px;
-    width: 30px;
-    height: 30px;
     text-align: center;
-    line-height: 30px;
     vertical-align: middle;
+    border-style: solid;
+    color: green;
+    margin: 2px;
+}
+#task{
+    margin: 2px;
+}
+
+#ticket-editorial{
+    margin: 2px;
+    padding: 0.35em;
+    border-radius: 10%;
+    background-color: #47adf1;
+    border-color: transparent;
+    color: white;
+    font-size: .75em;
+}
+
 }
